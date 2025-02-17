@@ -186,6 +186,10 @@ span {
   box-shadow: none;
 }
 
+.btn2:hover {
+  box-shadow: none;
+}
+
 .about {
   display: flex;
   justify-content: center;
