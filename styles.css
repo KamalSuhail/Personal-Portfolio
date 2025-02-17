@@ -53,7 +53,7 @@ section {
 }
 
 .navbar a {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: white;
   margin-left: 4rem;
   transition: 0.3s;
@@ -130,7 +130,7 @@ span {
 }
 
 .home-content p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -231,9 +231,13 @@ span {
 }
 
 .about-content p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin: 2rem 0 3rem;
   color: white;
+}
+
+.btn {
+  cursor: pointer;
 }
 
 .certifications {
@@ -458,6 +462,7 @@ span {
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
+    color: #fff;
   }
   .navbar {
     position: absolute;
@@ -465,10 +470,11 @@ span {
     left: 0;
     width: 100%;
     padding: 1rem 3%;
-    background: var(--bg-color);
+    background: #081b29;
     border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
     box-shadow: 0.5rem rgba(0, 0, 0, 0.2);
     display: none;
+    text-align: center;
   }
   .navbar.active {
     display: block;
@@ -489,14 +495,16 @@ span {
   }
   .home-img img {
     width: 70vw;
-    margin-top: 4rem;
+    height: 400px;
+    margin-top: 5rem;
   }
   .about {
     flex-direction: column-reverse;
   }
   .about img {
     width: 70vw;
-    margin-top: 4rem;
+    height: 400px;
+    margin-top: -8rem;
   }
   .certifications h2 {
     margin-bottom: 3rem;
