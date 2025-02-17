@@ -443,10 +443,10 @@ span {
 }
 @media (max-width: 991px) {
   .header {
-    padding: 2rem 3%;
+    padding: 2rem 6%;
   }
   section {
-    padding: 10rem 3% 2rem;
+    padding: 10rem 4% 2rem;
   }
   .certifications {
     padding-bottom: 7rem;
@@ -496,7 +496,7 @@ span {
     font-size: 5rem;
   }
   .home-img img {
-    width: 70vw;
+    width: 40vw;
     height: 400px;
     margin-top: 5rem;
   }
@@ -504,7 +504,7 @@ span {
     flex-direction: column-reverse;
   }
   .about img {
-    width: 70vw;
+    width: 40vw;
     height: 400px;
     margin-top: -8rem;
   }
