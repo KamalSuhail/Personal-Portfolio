@@ -58,6 +58,7 @@ section {
   margin-left: 4rem;
   transition: 0.3s;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .navbar a:hover {
