@@ -45,7 +45,7 @@ ScrollReveal().reveal(" .home-content h1, .about-img", { origin: "left" });
 ScrollReveal().reveal(" .home-content p, .about-content", { origin: "right" });
 
 var typed = new Typed(".typing", {
-  strings: ["SOFTWARE ENGINEER"],
+  strings: ["IT ENGINEER"],
   typeSpeed: 100,
   BackSpeed: 60,
   loop: true,
