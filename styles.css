@@ -295,9 +295,10 @@ span {
 
 .about-img img {
   border-radius: 50px 50px;
-  width: 530px; /*530 */
+  width: 530px; 
   height: 550px;
   box-shadow: 0 0 2rem white;
+  animation: floatImage 4s ease-in-out infinite;
 }
 
 .heading {
@@ -635,11 +636,16 @@ span {
 
 @media (max-width: 365px) {
   .home-img img {
-    width: 80vw;
-    height: 50vw;
+    width: 85vw;
+    height: 90vw;
+    margin-top: 70px;
+    margin-bottom: -70px;
   }
   .about-img img {
-    width: 90vw;
+    width: 85vw;
+    height: 100vw;
+    margin-top: -70px;
+    margin-bottom: -70px;
   }
   .footer {
     flex-direction: column-reverse;
@@ -649,7 +655,4 @@ span {
     margin-top: 2rem;
   }
 }
-/* .shadow {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-} */
+
