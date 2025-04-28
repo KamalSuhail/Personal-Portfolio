@@ -86,9 +86,9 @@ section {
 
 .home-img img {
   border-radius: 50px 50px;
-  width: 28vw;
-  height: 37vw;
-  /* animation: floatImage 4s ease-in-out infinite; */
+  width: 29vw;
+  height: 33vw;
+  animation: floatImage 4s ease-in-out infinite;
 }
 
 @keyframes floatImage {
@@ -635,7 +635,8 @@ span {
 
 @media (max-width: 365px) {
   .home-img img {
-    width: 90vw;
+    width: 80vw;
+    height: 50vw;
   }
   .about-img img {
     width: 90vw;
