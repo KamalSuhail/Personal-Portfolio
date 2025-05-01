@@ -133,7 +133,7 @@ span {
 }
 
 .home-content p {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   text-align: justify;
 }
@@ -320,7 +320,7 @@ span {
 }
 
 .about-content p {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 2rem 0 3rem;
   color: white;
   text-align: justify;
@@ -657,6 +657,19 @@ span {
   .footer p {
     text-align: center;
     margin-top: 2rem;
+  }
+
+  .home-content p {
+    font-size: 2rem;
+    color: white;
+    text-align: justify;
+  }
+  
+  .about-content p {
+    font-size: 2rem;
+    margin: 2rem 0 3rem;
+    color: white;
+    text-align: justify;
   }
 }
 
