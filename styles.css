@@ -138,6 +138,10 @@ span {
   text-align: justify;
 }
 
+#home p {
+  font-size: 25px;
+}
+
 .social-media a {
   display: inline-flex;
   justify-content: center;
