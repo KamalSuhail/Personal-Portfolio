@@ -133,13 +133,9 @@ span {
 }
 
 .home-content p {
-  font-size: 25px;
+  font-size: 25px !important;
   color: white;
   text-align: justify;
-}
-
-#home p {
-  font-size: 25px;
 }
 
 .social-media a {
@@ -324,7 +320,7 @@ span {
 }
 
 .about-content p {
-  font-size: 25px;
+  font-size: 25px !important;
   margin: 2rem 0 3rem;
   color: white;
   text-align: justify;
